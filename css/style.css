@@ -1,6 +1,6 @@
 .logo{
 }
-.color{
+.color,span{
     color:rgba(250, 190, 76, 1) ;
 }
 .color-2{
@@ -14,15 +14,25 @@
     background:rgba(164, 188, 70, 1);
 }
 .image-bg{
-    background-color: grey;
+    background-color: rgba(128, 128, 128,.2);
     border-radius: 10px;
     margin: 25px;
     padding: 20px;
-    height: 300px;
+    height: 400px;
 }
 .large-font{
-    font-size: 50px;
+    font-size: 3rem;
 }
 .font-family{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+@media (max-width:776px){
+    .viewport-align{
+        text-align: center;
+    }
+    .logo{
+        width: 80%;
+        
+    }
 }
