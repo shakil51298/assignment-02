@@ -1,5 +1,28 @@
 .logo{
 }
 .color{
-    color:rgb(73, 119, 0) ;
+    color:rgba(250, 190, 76, 1) ;
+}
+.color-2{
+    color: rgba(54, 57, 88, 1);
+}
+.remove-border{
+    border: none;
+    border-radius: 10px;
+}
+.btn-color{
+    background:rgba(164, 188, 70, 1);
+}
+.image-bg{
+    background-color: grey;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 20px;
+    height: 300px;
+}
+.large-font{
+    font-size: 50px;
+}
+.font-family{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
